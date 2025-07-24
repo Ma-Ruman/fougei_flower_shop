@@ -15,7 +15,6 @@
 .nav a{
     text-decoration: none;
     color: #8987A1;
-    
 }
 .nav .cart{
     color: #000000;
@@ -29,9 +28,32 @@
     color: #252432;
     font-weight: bold;
 }
+/* Banner Section */
+.banner{
+    display: flex;
+    margin-top: 221px;
+    margin-left: 130px;
+    margin-right: 130px;
+    align-items: center;
+}
+.banner-title{
+    font-size: 4.06em;
+    margin-bottom: 5px;
+    margin-top: auto;
+}
+.banner-discription{
+    color: #00000088;
+    font-size: medium ;
+    font-weight: 500;
+    font-family: inter;
+}
+.colorOrenage{
+    color: #E95A08;
+}
 
 /* Responsive  Small Device Section */
 @media screen and (max-width: 576px) {
+    /* Navigation Section */
     .nav{
         display: flex;
         margin-top: 13px;
@@ -50,6 +72,27 @@
         align-items: center;
         flex-wrap: nowrap;
         margin-left: auto; 
+}
+/* Banner Section */
+.banner{
+    flex-direction: column-reverse;
+    margin: 0 0 0 0;
+}
+.banner-title{
+    margin-top: 5px;
+    font-size: 2em;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.banner-discription{
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 300;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.banner .column img{
+    width:100%;
 }
 
 
