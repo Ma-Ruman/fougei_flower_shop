@@ -61,7 +61,7 @@
     text-align: center;
 }
 .plant-title{
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 600;
 }
 .plant-discription{
@@ -97,8 +97,56 @@
     
 }
 
+/* Lover Section */
+.lover-section{
+    display: flex;
+    align-items: center;
+    margin: 180px 130px 0 130px;
+    gap: 60px;
+
+}
+.love-img{
+    width: 100%;
+}
+.lover-img{
+    position: relative;
+}
+.badge {
+    position: absolute;
+    top: -80px;
+    left: 200px;
+    height: 50%;
+    z-index: 1;
+     animation: spin 10s linear infinite; 
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg );
+    }
+}
+
+ .lover-list{
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+.lover-title{
+    font-size: 3rem;
+    font-weight: 600;
+} 
+.lover-diccription , li{
+    font-size: 1.37rem;
+    font-weight: 400;
+    color: #00000088;
+    text-align: left;
+}
+
 
 /* Responsive  Small Device Section */
+
+
 @media screen and (max-width: 576px) {
     /* Navigation Section */
     .nav{
@@ -109,8 +157,14 @@
         align-items: center;
         justify-content: space-between;
     }
-    .nav .home , .shop , .about{
+    /* Hide Section */
+    .nav .home , nav .shop , nav .about , .badge{
         display: none;
+        gap: 0;
+        margin: 0;
+    }
+    .nav ul{
+        gap: 0;
     }
     .nav .cart {
         width: auto; 
@@ -118,16 +172,17 @@
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
-        margin-left: auto; 
+        margin-right: auto; 
 }
 /* Banner Section */
 .banner{
     flex-direction: column-reverse;
     margin: 0 0 0 0;
+    align-items: center;
 }
 .banner-title{
     margin-top: 5px;
-    font-size: 2em;
+    font-size: 2rem;
     margin-left: 16px;
     margin-right: 16px;
 }
@@ -162,6 +217,13 @@
     padding: 10px;
   }
 
+  /* Lover Section */
+.lover-section{
+    flex-direction: column;
+    margin: 40px 15px 0px 15px;
+    gap: 0;
+    align-items: center;
+}
 
 
     
