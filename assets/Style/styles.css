@@ -209,7 +209,7 @@
 } 
 /* Subscribe Section */
 .subscribe-section {
-  background-image: url("/assets/img/news-letter-bg.png");
+  background-image: url("../img/news-letter-bg.png");
   background-size: cover;
   background-position: center;
   padding: 100px 30px;
