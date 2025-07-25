@@ -207,6 +207,50 @@
     color: #FFFFFF;
     padding: 2rem;
 } 
+/* Subscribe Section */
+.subscribe-section {
+  background-image: url("/assets/img/news-letter-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 30px;
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.subscribe-content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 15px;
+  border: none;
+  flex: 1;
+  min-width: 200px;
+}
+
+.subscribe-form button {
+  background-color: #E95A08;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #e9a208;
+}
 
 
 /* Responsive  Small Device Section */
@@ -301,6 +345,9 @@
 .latest-deals{
     margin: 10px 10px 10px 10px;
 }
-
+/* Subscribe Section */
+.subscribe-section{
+    margin-top: 30px;
+}
     
 }
