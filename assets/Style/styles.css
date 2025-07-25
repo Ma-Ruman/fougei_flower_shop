@@ -251,6 +251,37 @@
 .subscribe-form button:hover {
   background-color: #e9a208;
 }
+/* Footer section */
+footer{
+    display: flex;
+    margin: 50px 130px 50px 130px;
+        justify-content: space-around;
+}
+.footer-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00000088;
+}
+.footer-links ul{
+    list-style: none;
+}
+.footer-links li {
+  margin-bottom: 15px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #00000088;
+    
+}
+.social-link{
+    display: flex;
+    gap: 20px;
+    
+    
+
+
+}
 
 
 /* Responsive  Small Device Section */
@@ -349,5 +380,24 @@
 .subscribe-section{
     margin-top: 30px;
 }
-    
+    /* Footer section */
+    footer{
+        flex-direction: column;
+        margin: 0;
+        justify-content: none;
+        gap: 0;
+    }
+    .footer-links{
+        display: flex;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .social-link{
+        margin-left: 20px;
+        align-items: start;
+    }
+    .footer-logo{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
